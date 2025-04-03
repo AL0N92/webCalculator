@@ -7,8 +7,9 @@
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien.png" alt="Alien" width="25" height="25" /> Большое обновление. Новая система</h2>
 <p>Осознанал, что я пытаюсь управлять логикой калькулятора через множество флагов (_zeroFirst, _action, _canDot и т. д.), что усложняет код и делает его хрупким, тяжело отслеживаемым и модернизируемым. Пришел к выводу, что нужно добавить состояния и избавиться от флагов:</p>
 <ul>
-  <li>Убраны лишние флаги (_zeroFirst, _action, _canDot, _dotRealy)</li>
+  <li>Убраны лишние флаги (_zeroFirst, _action, _canDot, _dotRealy и другие)</li>
   <li>Добавлена система состояний (State Machine)</li>
   <li>Упрощена логика обработки ввода</li>
   <li>Сохранена вся анимация и стили</li>
+  <li>Убран счетчик набранных символов. Теперь все вычисляется от общего рабочего пространства</li>
 </ul>
